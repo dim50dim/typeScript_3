@@ -35,7 +35,7 @@ document.querySelector('.b-2').addEventListener('click', f02);
 let n_31 : number = 22;
 let n_32: number = 44;
 // тут объявляем max_3
-
+let max_3 : number;
 
 function f03 () : void {
    

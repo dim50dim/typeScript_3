@@ -24,6 +24,7 @@ document.querySelector('.b-2').addEventListener('click', f02);
 let n_31 = 22;
 let n_32 = 44;
 // тут объявляем max_3
+let max_3;
 function f03() {
 }
 document.querySelector('.b-3').addEventListener('click', f03);
