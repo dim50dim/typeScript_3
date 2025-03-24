@@ -4,7 +4,8 @@
 // тут объявляете s_1
 let s_1;
 function f01() {
-    s_1 = document.querySelector('.i-1').textContent;
+    let element = document.querySelector('.i-1');
+    s_1 = element.value;
     console.log(s_1);
 }
 document.querySelector('.b-1').addEventListener('click', f01);

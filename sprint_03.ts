@@ -5,7 +5,8 @@
 let s_1 : string;
 
 function f01 () : void {
-   s_1 =  document.querySelector('.i-1').textContent;
+let element = document.querySelector('.i-1') as HTMLInputElement;
+s_1 = element.value;
    console.log(s_1);
    
 }
