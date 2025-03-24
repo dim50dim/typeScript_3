@@ -50,10 +50,11 @@ document.querySelector('.b-3').addEventListener('click', f03);
 // Напишите функцию, f04, которая получает два ЧИСЛА из input.i-41 и input.i-41 и меньшее присваивает в переменную min_4. Тип данных min_4 определите самостоятельно. Для проверки выведите min_4 в консоль.
 
 // тут объявляем min_4
-
+let min_4 : number;
 
 function f04 () : void {
-
+   let  firstInput : number = document.querySelector('.i-41') as HTMLInputElement;
+   let secondInput :number = document.querySelector('.i-42') as HTMLInputElement;
 }
 
 document.querySelector('.b-4').addEventListener('click', f04);
