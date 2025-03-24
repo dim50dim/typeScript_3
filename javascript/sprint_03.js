@@ -2,7 +2,10 @@
 // Task 01
 // По нажатию кнопки .b-1 запускается функция f01. Функция должна присвоить переменной s_1 введенный в input.i-1 текст. Тип переменной s_1 задайте самостоятельно. Для проверки выведите s_1 в консоль.
 // тут объявляете s_1
+let s_1;
 function f01() {
+    s_1 = String(document.querySelector('.i-1').textContent);
+    console.log(s_1);
 }
 document.querySelector('.b-1').addEventListener('click', f01);
 // Task 02 
