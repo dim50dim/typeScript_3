@@ -47,7 +47,13 @@ document.querySelector('.b-4').addEventListener('click', f04);
 // Напишите функцию, f05, которая проверяет что в input.i-51 и input.i-52 введены числа и при положительном результате проверки в переменную sum_5 кладет результат - сумму данных чисел, при отрицательном результате в переменную error_5 (начальное значение всегда false) кладется значение true. Типы данных определите самостоятельно. Выведите переменные в консоль. 
 // тут объявляем sum_5
 // тут объявляем error_5
+let sum_5;
+let error_5 = false;
 function f05() {
+    let input_1 = document.querySelector('.i-51');
+    let input_2 = document.querySelector('.i-52');
+    let num1 = +input_1.value;
+    let num2 = +input_2.value;
 }
 document.querySelector('.b-5').addEventListener('click', f05);
 // Task 06

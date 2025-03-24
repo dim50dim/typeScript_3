@@ -72,10 +72,17 @@ document.querySelector('.b-4').addEventListener('click', f04);
 
 // тут объявляем sum_5
 // тут объявляем error_5
-
-
+let sum_5 : number;
+let error_5 : boolean = false;
 function f05 () : void {
-   
+   let input_1 = document.querySelector('.i-51') as HTMLInputElement;
+   let input_2 = document.querySelector('.i-52') as HTMLInputElement;
+
+  let num1 : number = +input_1.value;
+  let num2 : number = +input_2.value;
+
+
+
 }
 
 document.querySelector('.b-5').addEventListener('click', f05);
