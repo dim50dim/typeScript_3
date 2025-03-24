@@ -5,7 +5,7 @@
 let s_1 : string;
 
 function f01 () : void {
-   s_1 = String( document.querySelector('.i-1').textContent);
+   s_1 =  document.querySelector('.i-1').textContent;
    console.log(s_1);
    
 }
