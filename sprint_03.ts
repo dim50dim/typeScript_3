@@ -105,6 +105,22 @@ let sum_6 : number;
 let error_6 : boolean = false;
 
 function f06 () : void {
+    let input_1 = document.querySelector('.i-61') as HTMLInputElement;
+    let input_2 = document.querySelector('.i-62') as HTMLInputElement;
+
+    let num1 : number = +input_1.value;
+    let num2 : number = +input_2.value;
+
+    if(!isNaN(num1) && !isNaN(num2)){
+        sum_6 = num1 + num2;
+     
+    }else{
+        sum_6 = 0;
+        error_6 = true;
+        
+    }
+    document.querySelector('.out-6').textContent = String(sum_6);
+    console.log(error_6);
     
    
 }

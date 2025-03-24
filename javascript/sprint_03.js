@@ -69,8 +69,22 @@ document.querySelector('.b-5').addEventListener('click', f05);
 // тут объявляем sum_6
 // тут объявляем error_6
 let sum_6;
-let error_6 = false;
+let error_6 : boolean = false
 function f06() {
+    let input_1 = document.querySelector('.i-61');
+    let input_2 = document.querySelector('.i-62');
+    let num1 = +input_1.value;
+    let num2 = +input_2.value;
+    if (!isNaN(num1) && !isNaN(num2)) {
+        sum_6 = num1 + num2;
+        error_6;
+    }
+    else {
+        sum_6 = 0;
+        error_6 = true;
+    }
+    document.querySelector('.out-6').textContent = String(sum_6);
+    console.log(error_6);
 }
 document.querySelector('.b-6').addEventListener('click', f06);
 // Task 07
