@@ -53,8 +53,15 @@ document.querySelector('.b-3').addEventListener('click', f03);
 let min_4 : number;
 
 function f04 () : void {
-   let  firstInput : number = document.querySelector('.i-41') as HTMLInputElement;
-   let secondInput :number = document.querySelector('.i-42') as HTMLInputElement;
+   let  firstInput  = document.querySelector('.i-41') as HTMLInputElement;
+   let secondInput  = document.querySelector('.i-42') as HTMLInputElement;
+
+   let num1 : number = +firstInput.value;
+   let num2 : number = +secondInput.value;
+
+   min_4 = Math.min(num1,num2);
+   console.log(min_4);
+   
 }
 
 document.querySelector('.b-4').addEventListener('click', f04);

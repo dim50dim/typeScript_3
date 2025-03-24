@@ -35,6 +35,12 @@ document.querySelector('.b-3').addEventListener('click', f03);
 // тут объявляем min_4
 let min_4;
 function f04() {
+    let firstInput = document.querySelector('.i-41');
+    let secondInput = document.querySelector('.i-42');
+    let num1 = +firstInput.value;
+    let num2 = +secondInput.value;
+    min_4 = Math.min(num1, num2);
+    console.log(min_4);
 }
 document.querySelector('.b-4').addEventListener('click', f04);
 // Task 05
