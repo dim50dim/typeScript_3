@@ -38,6 +38,8 @@ let n_32: number = 44;
 let max_3 : number;
 
 function f03 () : void {
+   max_3 = Math.max(n_31,n_32);
+   console.log(max_3);
    
 }
 

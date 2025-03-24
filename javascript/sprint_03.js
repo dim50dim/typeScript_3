@@ -26,6 +26,8 @@ let n_32 = 44;
 // тут объявляем max_3
 let max_3;
 function f03() {
+    max_3 = Math.max(n_31, n_32);
+    console.log(max_3);
 }
 document.querySelector('.b-3').addEventListener('click', f03);
 // Task 04
