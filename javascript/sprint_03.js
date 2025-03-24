@@ -68,7 +68,7 @@ document.querySelector('.b-5').addEventListener('click', f05);
 // Напишите функцию, f06, что проверяет что в input.i-61 и input.i-62 введены строки, которые можно привести к числам. При положительном результате проверки в переменную sum_6 кладет результат - сумму данных чисел, а в переменную error_6 кладем false, при отрицательном результате в переменную error_6 кладется значение true, а в переменную sum_6 кладем 0. Типы данных определите самостоятельно. Переменную sum_6 выведите в .out-6. Переменную error_6 в консоль.
 // тут объявляем sum_6
 // тут объявляем error_6
-let sum_6 = 0;
+let sum_6;
 let error_6 = false;
 function f06() {
     let input_1 = document.querySelector('.i-61');
@@ -76,11 +76,11 @@ function f06() {
     let num1 = +input_1.value;
     let num2 = +input_2.value;
     if (!isNaN(num1) && !isNaN(num2)) {
-        sum_6 = num1 + num_2;
-              error_6
+        sum_6 = num1 + num2;
+        error_6;
     }
     else {
-        sum_6 
+        sum_6 = 0;
         error_6 = true;
     }
     document.querySelector('.out-6').textContent = String(sum_6);

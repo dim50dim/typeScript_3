@@ -113,7 +113,7 @@ function f06 () : void {
 
     if(!isNaN(num1) && !isNaN(num2)){
         sum_6 = num1 + num2;
-     
+        error_6;
     }else{
         sum_6 = 0;
         error_6 = true;
