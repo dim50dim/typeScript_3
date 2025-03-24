@@ -12,7 +12,11 @@ document.querySelector('.b-1').addEventListener('click', f01);
 // Task 02 
 // По нажатию кнопки .b-2 запускается функция f02. Функция должна присвоить переменной res_2  ЧИСЛО введенное в input.i-2. Тип переменной res_2 задайте самостоятельно. Для проверки выведите res_2 в консоль.
 // тут объявляете res_2
+let res_2;
 function f02() {
+    let element = document.querySelector('.i-2');
+    res_2 = Number(element.value);
+    console.log(res_2);
 }
 document.querySelector('.b-2').addEventListener('click', f02);
 // Task 03
