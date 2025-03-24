@@ -101,9 +101,11 @@ document.querySelector('.b-5').addEventListener('click', f05);
 
 // тут объявляем sum_6
 // тут объявляем error_6
-
+let sum_6 : number;
+let error_6 : boolean = false;
 
 function f06 () : void {
+    
    
 }
 
