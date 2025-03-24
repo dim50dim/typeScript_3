@@ -81,7 +81,15 @@ function f05 () : void {
   let num1 : number = +input_1.value;
   let num2 : number = +input_2.value;
 
-
+if(!isNaN(num1) && !isNaN(num2)){
+    sum_5 = num1 + num2;
+    console.log(sum_5);
+    
+}else{
+    error_5 = true;
+    console.log(error_5);
+    
+}
 
 }
 

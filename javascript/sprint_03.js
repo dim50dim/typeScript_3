@@ -54,6 +54,14 @@ function f05() {
     let input_2 = document.querySelector('.i-52');
     let num1 = +input_1.value;
     let num2 = +input_2.value;
+    if (!isNaN(num1) && !isNaN(num2)) {
+        sum_5 = num1 + num2;
+        console.log(sum_5);
+    }
+    else {
+        error_5 = true;
+        console.log(error_5);
+    }
 }
 document.querySelector('.b-5').addEventListener('click', f05);
 // Task 06
