@@ -238,8 +238,15 @@ document.querySelector('.b-12').addEventListener('click', f12);
 // Функция f13 получает из input.i-13 число и выводит в .out-13 строку вида 43210 т.е. от введенного числа до нуля. Если ввели 5, то вывод должен быть 543210. 
 
 function f13 () : void {
-    
+    let input = document.querySelector('.i-13') as HTMLInputElement;
+    let num = Number(input.value);
+    console.log(num);
+    let out : string = '';
 
+    for(let i = num; i >= 0; i--){
+        out += i ;
+    }
+     document.querySelector('.out-13').textContent = String(out)
 }
 
 document.querySelector('.b-13').addEventListener('click', f13);
