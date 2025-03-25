@@ -156,9 +156,13 @@ document.querySelector('.b-7').addEventListener('click', f07);
 
 
 // тут объявляем val_8
+let val_8 : string ;
 
 
 function f08 () : void {
+  let res = document.querySelector('.s-8') as HTMLInputElement;
+  val_8 = res.value;
+  document.querySelector('.out-8').textContent = val_8;
 
 }
 

@@ -103,7 +103,11 @@ document.querySelector('.b-7').addEventListener('click', f07);
 // Task 08
 // Функция f08 должна прочитать выбранное value из select.s-8 и записать значение в переменную val_8. Тип val_8 определите самостоятельно. Выведите val_8 в .out-8. 
 // тут объявляем val_8
+let val_8;
 function f08() {
+    let res = document.querySelector('.s-8');
+    val_8 = res.value;
+    document.querySelector('.out-8').textContent = val_8;
 }
 document.querySelector('.b-8').addEventListener('click', f08);
 // Task 09
