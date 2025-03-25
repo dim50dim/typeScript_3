@@ -220,10 +220,14 @@ document.querySelector('.ch-11').addEventListener('change', f11);
 // Создайте переменную res_12 тип number значение 0. При нажатии кнопки .b-12 функция должна читать содержимое переменной res_12 и если она равна 1 то делать checkbox.ch-12 состояние checked, если равна нулю сбрасывать состояние checked. 
 
 // тут объявляем res_12
-let res_12 : number = 0;
+let res_12 : number = 1;
 
-function f12 () : void { 
-    
+function f12 () : void {
+    let check = document.querySelector(".ch-12") as HTMLInputElement;
+
+if(check) {
+    check.checked = res_12 === 1;
+}
    
 }
 
