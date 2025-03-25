@@ -189,10 +189,16 @@ document.querySelector('.b-9').addEventListener('click', f09);
 // Создайте переменную res_10 тип boolean, значение false. При изменении состояния checkbox.ch-10 изменяйте содержимое переменной res_10. Если checkbox выбран записывайте true, если нет - false. Выводите res_10 в .out-10.
 
 // тут объявляем res_10
-
+let res_10 : boolean = false;
 
 function f10 () : void {
-
+let check = document.querySelector('.ch-10') as HTMLInputElement;
+if(check.checked) {
+    res_10 = true;
+}else{
+    res_10
+}
+document.querySelector('.out-10').innerHTML = String(res_10)
 }
 
 document.querySelector('.ch-10').addEventListener('change', f10);
