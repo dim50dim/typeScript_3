@@ -208,9 +208,11 @@ document.querySelector('.ch-10').addEventListener('change', f10);
 // Создайте переменную res_11 тип number значение 0. При изменении состояния checkbox.ch-11 изменяйте содержимое переменной res_11. Если checkbox выбран записывайте в res_11 значение value, если нет - 0. Выводите res_11 в .out-11.
 
 // тут объявляем res_11
-
+let res_11 : number = 0;
 function f11 () : void {
-    
+    let check = document.querySelector('.ch-11') as HTMLInputElement;
+   res_11 = check.checked ? Number(check.value) : 0;
+    document.querySelector('.out-11').textContent = String(res_11);
 }
 
 document.querySelector('.ch-11').addEventListener('change', f11);
