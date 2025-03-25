@@ -193,11 +193,7 @@ let res_10 : boolean = false;
 
 function f10 () : void {
 let check = document.querySelector('.ch-10') as HTMLInputElement;
-if(check.checked) {
-    res_10 = true;
-}else{
-    res_10
-}
+res_10 = check.checked ? true : false;
 document.querySelector('.out-10').innerHTML = String(res_10)
 }
 

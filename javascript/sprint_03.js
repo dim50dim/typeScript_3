@@ -126,12 +126,7 @@ document.querySelector('.b-9').addEventListener('click', f09);
 let res_10 = false;
 function f10() {
     let check = document.querySelector('.ch-10');
-    if (check.checked) {
-        res_10 = true;
-    }
-    else {
-        res_10;
-    }
+    res_10 = check.checked ? true : false;
     document.querySelector('.out-10').innerHTML = String(res_10);
 }
 document.querySelector('.ch-10').addEventListener('change', f10);
