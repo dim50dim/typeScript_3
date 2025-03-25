@@ -132,10 +132,11 @@ document.querySelector('.b-6').addEventListener('click', f06);
 // Функция f07 получает строки из input.i-71 и input.i-72. В переменную max_7 функция должна записать большую из двух строк. Прямым сравнением. Тип переменной max_7 задайте самостоятельно. Выведите переменную max_7 в .out-7.
 
 // тут объявляем max_7
-
+let max_7 : string = '';
 
 function f07 () : void {
-    
+    let input_1 = document.querySelector('.i-71') as HTMLInputElement;
+    let input_2 = document.querySelector('.i-72') as HTMLInputElement;
 }
 
 document.querySelector('.b-7').addEventListener('click', f07);
