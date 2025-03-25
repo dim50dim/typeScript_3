@@ -143,6 +143,7 @@ document.querySelector('.ch-11').addEventListener('change', f11);
 // // Task 12
 // Создайте переменную res_12 тип number значение 0. При нажатии кнопки .b-12 функция должна читать содержимое переменной res_12 и если она равна 1 то делать checkbox.ch-12 состояние checked, если равна нулю сбрасывать состояние checked. 
 // тут объявляем res_12
+let res_12 = 0;
 function f12() {
 }
 document.querySelector('.b-12').addEventListener('click', f12);

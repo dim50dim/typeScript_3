@@ -194,6 +194,7 @@ let res_10 : boolean = false;
 function f10 () : void {
 let check = document.querySelector('.ch-10') as HTMLInputElement;
 res_10 = check.checked ? true : false;
+
 document.querySelector('.out-10').innerHTML = String(res_10)
 }
 
@@ -208,6 +209,7 @@ let res_11 : number = 0;
 function f11 () : void {
     let check = document.querySelector('.ch-11') as HTMLInputElement;
    res_11 = check.checked ? Number(check.value) : 0;
+
     document.querySelector('.out-11').textContent = String(res_11);
 }
 
@@ -218,9 +220,10 @@ document.querySelector('.ch-11').addEventListener('change', f11);
 // Создайте переменную res_12 тип number значение 0. При нажатии кнопки .b-12 функция должна читать содержимое переменной res_12 и если она равна 1 то делать checkbox.ch-12 состояние checked, если равна нулю сбрасывать состояние checked. 
 
 // тут объявляем res_12
+let res_12 : number = 0;
 
-
-function f12 () : void {
+function f12 () : void { 
+    
    
 }
 
