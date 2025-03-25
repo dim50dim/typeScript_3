@@ -90,7 +90,14 @@ document.querySelector('.b-6').addEventListener('click', f06);
 // Task 07
 // Функция f07 получает строки из input.i-71 и input.i-72. В переменную max_7 функция должна записать большую из двух строк. Прямым сравнением. Тип переменной max_7 задайте самостоятельно. Выведите переменную max_7 в .out-7.
 // тут объявляем max_7
+let max_7 = '';
 function f07() {
+    let input_1 = document.querySelector('.i-71');
+    let input_2 = document.querySelector('.i-72');
+    let num1 = input_1.value;
+    let num2 = input_2.value;
+    max_7 = (num1.length > num2.length) ? num1 : num2;
+    document.querySelector('.out-7').textContent = max_7;
 }
 document.querySelector('.b-7').addEventListener('click', f07);
 // Task 08

@@ -143,8 +143,8 @@ function f07 () : void {
 
     max_7 = (num1.length > num2.length) ? num1 : num2;
 
-    document.querySelector('.out-7').textContent = max_7;
-    console.log(max_7);
+    document.querySelector('.out-7').textContent = max_7
+
     
 }
 
