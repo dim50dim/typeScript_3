@@ -137,6 +137,15 @@ let max_7 : string = '';
 function f07 () : void {
     let input_1 = document.querySelector('.i-71') as HTMLInputElement;
     let input_2 = document.querySelector('.i-72') as HTMLInputElement;
+
+    let num1 : string = input_1.value;
+    let num2 : string = input_2.value;
+
+    max_7 = (num1.length > num2.length) ? num1 : num2;
+
+    document.querySelector('.out-7').textContent = max_7;
+    console.log(max_7);
+    
 }
 
 document.querySelector('.b-7').addEventListener('click', f07);
