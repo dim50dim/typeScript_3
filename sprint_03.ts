@@ -172,10 +172,15 @@ document.querySelector('.b-8').addEventListener('click', f08);
 // Создайте переменную val_9 и пропишите ей любое целое число от 2 до 6. Тип данных задайте самостоятельно. Напишите функцию f09, которая будучи запущена сделает option внутри select.s-9 с таким value selected. Значение val_9 выводите в .out-9.
 
 // тут объявляем val_9
-
+let val_9 : number = 6;
 
 function f09 () : void {
+let select = document.querySelector('.s-9') as HTMLSelectElement;
 
+if(select){
+    select.value = String(val_9)
+}
+document.querySelector('.out-9').textContent = String(val_9);
 }
 
 document.querySelector('.b-9').addEventListener('click', f09);
