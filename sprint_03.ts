@@ -274,10 +274,11 @@ document.querySelector('.b-14').addEventListener('click', f14);
 
 // тут объявляем s_15
 // тут объявляем res_15
-
+let s_15 : string = 'cdcdbdcsd';
+let res_15 : number = 0;
 
 function f15 () : void {
-
+  
 }
 
 document.querySelector('.b-15').addEventListener('click', f15);

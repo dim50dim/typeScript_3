@@ -179,6 +179,8 @@ document.querySelector('.b-14').addEventListener('click', f14);
 // Создайте переменную s_15 со значением'cdcdbdcsd'. И переменную res_15. Функция должна считать сколько в переменной s_15 символов 'c'. Количество присваивать в переменную res_15. Функция должна выводить s_15 в .out-151 и res_15 в .out-152.
 // тут объявляем s_15
 // тут объявляем res_15
+let s_15 = 'cdcdbdcsd';
+let res_15 = 0;
 function f15() {
 }
 document.querySelector('.b-15').addEventListener('click', f15);
