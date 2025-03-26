@@ -200,7 +200,11 @@ document.querySelector('.i-16').addEventListener('input', f16);
 // Task 17
 // Создайте переменную res_17 тип boolean значение false. Создан элемент input.i-17. Функция при нажатии кнопки читает содержимое res_17 и если значение false то делает input.i-17 disabled. Если true - enabled.
 // тут объявляем res_17
+let res_17 = true;
 function f17() {
+    let input = document.querySelector('.i-17');
+    res_17 = !res_17;
+    input.disabled = !res_17;
 }
 document.querySelector('.b-17').addEventListener('click', f17);
 // Task 18
