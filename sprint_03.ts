@@ -278,7 +278,10 @@ let s_15 : string = 'cdcdbdcsd';
 let res_15 : number = 0;
 
 function f15 () : void {
+  res_15 = s_15.split('').filter(item => item === 'c').length;
   
+  document.querySelector('.out-151').textContent = String(res_15);
+  document.querySelector('.out-152').textContent = String(s_15)
 }
 
 document.querySelector('.b-15').addEventListener('click', f15);
