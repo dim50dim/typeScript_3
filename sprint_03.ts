@@ -260,7 +260,7 @@ let res_14 : boolean = false;
 function f14 () : void {
     let input = document.querySelector('.i-14') as HTMLInputElement;
 
-    let num = Number(input.value);
+    let num :number = Number(input.value);
     if(num % 2 === 0) res_14 = true;
     else res_14;
     document.querySelector(".out-14").innerHTML = String(res_14); 
