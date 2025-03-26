@@ -188,9 +188,13 @@ function f15() {
 }
 document.querySelector('.b-15').addEventListener('click', f15);
 // Task 16
-// Создан элемент input.i-16. При вводе символов в него выводите количество введенных символов в переменную res_16. Выводите переменную res_16 в .out-16. 
+// Создайте переменную s_15 со значением'cdcdbdcsd'. И переменную res_15. Функция должна считать сколько в переменной s_15 символов 'c'. Количество присваивать в переменную res_15. Функция должна выводить s_15 в .out-151 и res_15 в .out-152.
 // тут объявляем res_16
+let res_16 = 0;
 function f16() {
+    let input = document.querySelector('.i-16');
+    res_16 = input.value.length;
+    document.querySelector('.out-16').innerHTML = String(res_16);
 }
 document.querySelector('.i-16').addEventListener('input', f16);
 // Task 17
