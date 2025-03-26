@@ -167,14 +167,11 @@ document.querySelector('.b-13').addEventListener('click', f13);
 // Task 14
 // Функция f14 получает из input.i-14 число и присваивает переменной res_14 true если введенное число является четным, false если не четным. Переменную res_14 выведите в .out-14.
 // тут объявляем res_14
-let res_14 = false;
+let res_14;
 function f14() {
     let input = document.querySelector('.i-14');
     let num = Number(input.value);
-    if (num % 2 === 0)
-        res_14 = true;
-    else
-        res_14;
+    res_14 = num % 2 === 0;
     document.querySelector(".out-14").innerHTML = String(res_14);
 }
 document.querySelector('.b-14').addEventListener('click', f14);
