@@ -255,7 +255,7 @@ document.querySelector('.b-13').addEventListener('click', f13);
 // Функция f14 получает из input.i-14 число и присваивает переменной res_14 true если введенное число является четным, false если не четным. Переменную res_14 выведите в .out-14.
 
 // тут объявляем res_14
-
+let res_14 : boolean = false;
 
 function f14 () : void {
     
