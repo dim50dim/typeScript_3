@@ -169,6 +169,13 @@ document.querySelector('.b-13').addEventListener('click', f13);
 // тут объявляем res_14
 let res_14 = false;
 function f14() {
+    let input = document.querySelector('.i-14');
+    let num = Number(input.value);
+    if (num % 2 === 0)
+        res_14 = true;
+    else
+        res_14;
+    document.querySelector(".out-14").innerHTML = String(res_14);
 }
 document.querySelector('.b-14').addEventListener('click', f14);
 // Task 15
