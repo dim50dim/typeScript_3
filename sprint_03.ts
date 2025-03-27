@@ -374,8 +374,13 @@ let s_20 : number = 0;
 
 function f20 () : void {
    
+let num = document.querySelector('.i-20') as HTMLInputElement;
+let mainNum : string = num.value;
 
-
+for(let i = Number(mainNum); i > 0; i--) {
+    s_20 += i;
+}
+      document.querySelector('.out-20').innerHTML = String(s_20);
 }
 
 document.querySelector('.b-20').addEventListener('click', f20);

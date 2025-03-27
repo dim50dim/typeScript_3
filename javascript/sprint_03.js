@@ -250,6 +250,12 @@ document.querySelector('.b-19').addEventListener('click', f19);
 // тут объявляем s_20
 let s_20 = 0;
 function f20() {
+    let num = document.querySelector('.i-20');
+    let mainNum = num.value;
+    for (let i = Number(mainNum); i > 0; i--) {
+        s_20 += i;
+    }
+    document.querySelector('.out-20').innerHTML = String(s_20);
 }
 document.querySelector('.b-20').addEventListener('click', f20);
 //# sourceMappingURL=sprint_03.js.map
