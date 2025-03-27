@@ -230,7 +230,14 @@ document.querySelector('.b-18').addEventListener('click', f18);
 // Task 19
 // Создайте с помощью цикла строку s_19 в которой идет ряд 5_x_3_x_1_x_. Т.е. пользователь вводит число, например 5, а функция генерирует строку от 5 до 0 и заменяет четные числа на x. Разделитель подчеркивание. Число функция берет из input.i-19. Выведите строку в .out-19.
 // тут объявляем s_19
+let s_19 = '';
 function f19() {
+    let out = '';
+    let input = document.querySelector(".i-19");
+    let num = input.value;
+    let sum = Number(num);
+    for (let i = sum; i >= 0; i--) {
+    }
 }
 document.querySelector('.b-19').addEventListener('click', f19);
 // Тask 20
