@@ -220,7 +220,11 @@ let s_18 = '10000';
 let count_18 = 0;
 function f18() {
     count_18++;
+    if (count_18 > 4)
+        count_18 = 0;
+    s_18 = '0'.repeat(count_18) + '1' + '0'.repeat(4 - count_18);
     document.querySelector('.out-181').innerHTML = String(count_18);
+    document.querySelector(".out-182").innerHTML = String(s_18);
 }
 document.querySelector('.b-18').addEventListener('click', f18);
 // Task 19
