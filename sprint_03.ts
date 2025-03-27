@@ -328,7 +328,8 @@ document.querySelector('.b-17').addEventListener('click', f17);
 // Выведите count_18 в .out-181 и s_18 в .out-182
 
 // тут объявляем 
-
+let s_18 : string = '10000';
+let count_18 : number = 0; 
 
 function f18 () : void {
     

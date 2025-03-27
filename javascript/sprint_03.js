@@ -216,6 +216,8 @@ document.querySelector('.b-17').addEventListener('click', f17);
 // Т.е. когда count = 4 строка выглядит '00001'
 // Выведите count_18 в .out-181 и s_18 в .out-182
 // тут объявляем 
+let s_18 = '10000';
+let count_18 = 0;
 function f18() {
 }
 document.querySelector('.b-18').addEventListener('click', f18);
