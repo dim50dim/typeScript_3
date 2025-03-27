@@ -374,6 +374,7 @@ document.querySelector('.b-19').addEventListener('click', f19);
 
 function f20 () : void {
    
+    
 
 }
 
