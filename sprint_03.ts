@@ -356,8 +356,10 @@ function f19 () : void {
    let num : string = input.value;
    let sum : number = Number(num);
    for(let i = sum; i >= 0; i--){
-     
+     if(i % 2 === 0) s_19 += 'x' + '_';
+     else s_19 += i + '_';
    }
+   document.querySelector('.out-19').innerHTML = String(s_19);
 }
 
 document.querySelector('.b-19').addEventListener('click', f19);
