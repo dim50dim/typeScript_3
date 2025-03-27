@@ -370,11 +370,11 @@ document.querySelector('.b-19').addEventListener('click', f19);
 
 // тут объявляем s_20
 
-
+let s_20 : number = 0;
 
 function f20 () : void {
    
-    
+
 
 }
 
