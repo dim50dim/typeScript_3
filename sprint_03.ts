@@ -332,7 +332,8 @@ let s_18 : string = '10000';
 let count_18 : number = 0; 
 
 function f18 () : void {
-    
+    count_18++;
+    document.querySelector('.out-181').innerHTML = String(count_18);
 
 
 }

@@ -219,6 +219,8 @@ document.querySelector('.b-17').addEventListener('click', f17);
 let s_18 = '10000';
 let count_18 = 0;
 function f18() {
+    count_18++;
+    document.querySelector('.out-181').innerHTML = String(count_18);
 }
 document.querySelector('.b-18').addEventListener('click', f18);
 // Task 19
